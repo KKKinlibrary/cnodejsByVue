@@ -6,6 +6,9 @@ import './plugins/element.js'
 import './assets/css/global.css'
 
 import axios from 'axios'
+import echarts from "echarts";
+Vue.prototype.$echarts = echarts;
+
 // 配置请求的根路径
 axios.defaults.baseURL = "http://timemeetyou.com:8889/api/private/v1/"
 // 拦截请求，以在请求头中添加token令牌
