@@ -26,4 +26,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ##### 未实现功能
-商品分类的编辑与删除功能
+- 商品分类的编辑与删除功能
+- 
